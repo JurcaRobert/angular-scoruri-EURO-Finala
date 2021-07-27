@@ -1,0 +1,206 @@
+<!-- <img [src]="flagImage">
+<h1>{{countryName}}</h1> -->
+
+<!-- <h1>Grupa A</h1>
+            <div class="card-body">
+                <h3 class="h3">
+                    <img [src]="flagImage"> {{countryName}}<br>
+                    <hr>
+                    <img [src]="flagImage1"> {{countryName1}}<br>
+                    <hr>
+                    <img [src]="flagImage2"> {{countryName2}}<br>
+                    <hr>
+                    <img [src]="flagImage3" style="width: 60px"> {{countryName3}}
+                </h3>
+            -->
+<h1>Grupa A</h1>
+
+
+<!--aici este pe o singura coloana tabelul-->
+
+
+<table class="table">
+
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+
+            <td><img [src]="flagImage" style="height:32px"></td>
+            <td>
+                <h3>{{countryName}}</h3>
+            </td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td><img [src]="flagImage1" style="height:32px"></td>
+            <td>
+                <h3>{{countryName1}}</h3>
+            </td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td><img [src]="flagImage2" style="height:32px"></td>
+            <td>
+                <h3>{{countryName2}}</h3>
+            </td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <th scope="row">4</th>
+            <td><img [src]="flagImage3" style="height:32px"></td>
+            <td>
+                <h3>{{countryName3}}</h3>
+            </td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>
+<!-- <h2>{{calificate}}</h2>
+<button class="btn btn-primary" (click)="onApasa()">Press</button> -->
+
+<!--de aici va fii un alt tabbel cu 3 coloane-->
+<!---
+<div class="container">
+    <div class="row">
+    </div>
+    <div class="row">
+        <div class="col">
+
+            <table class="table">
+
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+
+                        <td><img [src]="flagImage"></td>
+                        <td>
+                            <h3>{{countryName}}</h3>
+                        </td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td><img [src]="flagImage1"></td>
+                        <td>
+                            <h3>{{countryName1}}</h3>
+                        </td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td><img [src]="flagImage2"></td>
+                        <td>
+                            <h3>{{countryName2}}</h3>
+                        </td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td><img [src]="flagImage3"></td>
+                        <td>
+                            <h3>{{countryName3}}</h3>
+                        </td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>{{calificate}}</h2>
+            <button class="btn btn-primary" (click)="onApasa()">Press</button>
+
+        </div>
+        <div class="col-5">
+            <table class="table">
+
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+
+                        <td><img [src]="flagImage"></td>
+                        <td>
+                            <h3>{{countryName}}</h3>
+                        </td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td><img [src]="flagImage1"></td>
+                        <td>
+                            <h3>{{countryName1}}</h3>
+                        </td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td><img [src]="flagImage2"></td>
+                        <td>
+                            <h3>{{countryName2}}</h3>
+                        </td>
+                        <td>@twitter</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td><img [src]="flagImage3"></td>
+                        <td>
+                            <h3>{{countryName3}}</h3>
+                        </td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>{{calificate}}</h2>
+            <button class="btn btn-primary" (click)="onApasa()">Press</button>
+        </div>
+        <div class="col">
+            <table class="table">
+
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+
+                        <td><img [src]="flagImage"></td>
+                        <td>
+                            <h3>{{countryName}}</h3>
+                        </td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td><img [src]="flagImage1"></td>
+                        <td>
+                            <h3>{{countryName1}}</h3>
+                        </td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td><img [src]="flagImage2"></td>
+                        <td>
+                            <h3>{{countryName2}}</h3>
+                        </td>
+                        <td>@twitter</td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td><img [src]="flagImage3"></td>
+                        <td>
+                            <h3>{{countryName3}}</h3>
+                        </td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>{{calificate}}</h2>
+            <button class="btn btn-primary" (click)="onApasa()">Press</button>
+        -->
+<!-- NgIf aici am creatat ce afisaza -->
+<h1 *ngIf="islogIn">Italia <img [src]="flagImage" style="height:32px"> Tara Galilor <img [src]="flagImage1" style="height:32px"></h1>
+<h2 *ngIf='!islogIn'>Echipele clificate:</h2>
+<!-- am creeat pentu echipele posibile ngIf -->
+<h2 *ngIf='!islogIn'>Posibile</h2>
+<h2 *ngIf='islogIn'>Elvetia <img [src]="flagImage2" style="height:32px"></h2>
+<!-- aici am creat functionalitatile la butoane -->
+<button *ngIf="!islogIn" class="btn btn-success" (click)='ok()'>Show</button>
+<button *ngIf="islogIn" class="btn btn-danger" (click)='close()'>Close</button>
