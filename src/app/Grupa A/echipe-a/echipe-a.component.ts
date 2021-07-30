@@ -14,17 +14,14 @@ export class EchipeAComponent implements OnInit {
   public flagImage2:string ="//ssl.gstatic.com/onebox/media/sports/logos/1hy9ek4dOIffYULM6k1fqg_48x48.png"
   public countryName3:string ='Turcia';
   public flagImage3:string ="//ssl.gstatic.com/onebox/media/sports/logos/hYrtTF982kN3GcYNdSPL9g_48x48.png"
-//  public calificate:string ="Echipele carea au mers mai departe";
+
  public islogIn:boolean = false;
   constructor() { }
 
   ngOnInit(): void {
   
   }
-  // onApasa(){
-  //   this.calificate ="Italia si Turcia";
 
-  // }
   public ok():void{
     this.islogIn = true;
 
