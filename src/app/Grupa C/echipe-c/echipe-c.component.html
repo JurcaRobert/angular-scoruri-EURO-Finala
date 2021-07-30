@@ -1,7 +1,4 @@
 <h1>Grupa C </h1>
-<!-- <h2>{{countryName}}</h2>
-<h2 *ngIf="islogIn">bun</h2>
-<h2 *ngIf='!islogIn'>nu i bun</h2> -->
 
 <table class="table">
 
@@ -41,14 +38,10 @@
         </tr>
     </tbody>
 </table>
-<!-- NgIf aici am creatat ce afisaza -->
+
 <h1 *ngIf="islogIn">Olanda <img [src]="flagImage" style="height:32px"> Austria <img [src]="flagImage1" style="height:32px"></h1>
 <h2 *ngIf='!islogIn'>Echipele clificate:</h2>
-<!-- posibile -->
 <h2 *ngIf='!islogIn'>Posibile</h2>
 <h2 *ngIf='islogIn'>Ucraina <img [src]="flagImage2" style="height:32px"></h2>
-<!-- aici am creat functionalitatile la butoane -->
 <button *ngIf="!islogIn" class="btn btn-success" (click)='ok()'>Show</button>
 <button *ngIf="islogIn" class="btn btn-danger" (click)='close()'>Close</button>
-<!-- <h2>{{calificate}}</h2> -->
-<!-- <button class="btn btn-primary" (click)="onApasa()">Press</button> -->
