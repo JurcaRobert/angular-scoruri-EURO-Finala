@@ -1,12 +1,10 @@
 <footer>
-    <!-- Va trebui sa fac o alta componenta in care sa pun  tot ce este in footer -->
+  
     <div class="finalaEuro">
         <h1>Finala Euro 2020</h1>
     </div>
     <h2 *ngIf=!islogIn>Castigatoarea:<br><br>Anglia <img [src]="flagEngland" style="height:32px"> Italia <img [src]="flagItalia" style="height:32px"></h2>
-    <!-- <h1>{{finala}}</h1> -->
     <h1 *ngIf=islogIn>Italia <img [src]="flagItalia" style="height:32px"></h1>
-    <!-- button show and close -->
     <button *ngIf="!islogIn" class="btn btn-success" (click)='ok()'>Show</button>
     <button *ngIf="islogIn" class="btn btn-danger" (click)='close()'>Close</button>
     <h4>@Jurca Robert Euro 2020 </h4>
