@@ -15,9 +15,8 @@ export class EchipeEComponent implements OnInit {
   public flagImage2:string ="//ssl.gstatic.com/onebox/media/sports/logos/6APs2PMKgCrh97J3QEz5Yg_48x48.png"
   public countryName3:string ='Polonia';
   public flagImage3:string ="//ssl.gstatic.com/onebox/media/sports/logos/yTS_Piy3M1wUBnqU0n5aAw_48x48.png"
-//  public calificate:string ="Echipele carea au mers mai departe";
  public islogIn:boolean = false;
-//  public seSterge:boolean = false;
+  
   constructor() { }
  
   ngOnInit(): void {
@@ -29,9 +28,6 @@ export class EchipeEComponent implements OnInit {
   public close():void{
     this.islogIn = false;
   }
-  // public sterge():void{
-  //   this.seSterge = true;
-  // }
 
 }
 
