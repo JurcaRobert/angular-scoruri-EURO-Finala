@@ -1,9 +1,6 @@
 <h1>Grupa F</h1>
 
 
-<!--aici este pe o singura coloana tabelul-->
-
-
 <table class="table">
 
     <tbody>
@@ -43,13 +40,9 @@
     </tbody>
 </table>
 
-<!-- NgIf aici am creatat ce afisaza -->
 <h1 *ngIf="islogIn">Franta <img [src]="flagImage" style="height:32px"> Germania <img [src]="flagImage1" style="height:32px"></h1>
 <h2 *ngIf="!islogIn">Echipele clificate:</h2>
-<!-- Posibile -->
 <h2 *ngIf=!islogIn>Posibile</h2>
 <h2 *ngIf=islogIn>Portugalia <img [src]="flagImage2" style="height:32px"></h2>
-
-<!-- aici am creat functionalitatile la butoane -->
 <button *ngIf="!islogIn" class="btn btn-success" (click)='ok()'>Show</button>
 <button *ngIf="islogIn" class="btn btn-danger" (click)='close()'>Close</button>
