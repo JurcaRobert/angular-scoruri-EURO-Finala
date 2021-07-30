@@ -14,9 +14,9 @@ export class EchipeCComponent implements OnInit {
   public flagImage2:string ="//ssl.gstatic.com/onebox/media/sports/logos/DQIQtK7N4yrDIqw75pxFHg_48x48.png"
   public countryName3:string ='Macedonia de Nord';
   public flagImage3:string ="//ssl.gstatic.com/onebox/media/sports/logos/JCU93J9GUw6QWkH-RBNulg_48x48.png"
-//  public calificate:string ="Echipele carea au mers mai departe";
+
  public islogIn:boolean = false;
-//  public seSterge:boolean = false;
+
   constructor() { }
  
   ngOnInit(): void {
@@ -28,8 +28,6 @@ export class EchipeCComponent implements OnInit {
   public close():void{
     this.islogIn = false;
   }
-  // public sterge():void{
-  //   this.seSterge = true;
-  // }
+
 
 }
