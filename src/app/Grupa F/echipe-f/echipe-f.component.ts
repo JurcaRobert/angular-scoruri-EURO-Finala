@@ -15,9 +15,8 @@ export class EchipeFComponent implements OnInit {
   public flagImage2:string ="//ssl.gstatic.com/onebox/media/sports/logos/HJ3_2c4w791nZJj7n-Lj3Q_48x48.png"
   public countryName3:string ='Ungaria';
   public flagImage3:string ="//ssl.gstatic.com/onebox/media/sports/logos/YEm-U_1zHCmIknmK5sNcIg_48x48.png"
-//  public calificate:string ="Echipele carea au mers mai departe";
  public islogIn:boolean = false;
-//  public seSterge:boolean = false;
+
   constructor() { }
  
   ngOnInit(): void {
@@ -29,9 +28,6 @@ export class EchipeFComponent implements OnInit {
   public close():void{
     this.islogIn = false;
   }
-  // public sterge():void{
-  //   this.seSterge = true;
-  // }
-
+ 
 }
 
